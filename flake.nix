@@ -17,15 +17,31 @@
           name = "global-system-tools";
 
           paths = with pkgs; [
+            aria2
             bat
+            bottom
             direnv
             duf
             dust
             fd
+            grex
+            harper
+            hyperfine
             lsd
+            lychee
+            pwgen
             ripgrep-all
+            rumdl
             sd
             starship
+            xcp
+            xh
+
+            # cryptography & secrets
+            b3sum
+            pqc-scanner
+            pqcscan
+            sops
 
             # Jujutsu VCS + other VCS tools
             hanko
