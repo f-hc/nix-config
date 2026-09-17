@@ -27,6 +27,7 @@
             grex
             harper
             hyperfine
+            jq
             lsd
             lychee
             pwgen
@@ -36,6 +37,7 @@
             starship
             xcp
             xh
+            yq
 
             # cryptography & secrets
             b3sum
