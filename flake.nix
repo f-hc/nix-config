@@ -18,31 +18,26 @@
 
           paths = with pkgs; [
             aria2
-            bat
-            bottom
             direnv
-            duf
-            dust
-            fd
             grex
             harper
             hyperfine
             jq
-            lsd
             lychee
-            pwgen
-            ripgrep-all
             rumdl
-            sd
             starship
-            xcp
-            xh
             yq
 
-            # cryptography & secrets
+            # AI
+            codex
+            opencode
+            skills
+
+            # Cryptography & secrets
             b3sum
             pqc-scanner
             pqcscan
+            pwgen
             sops
 
             # Jujutsu VCS + other VCS tools
@@ -61,6 +56,19 @@
             nix-your-shell
             nixd
             nixfmt
+
+            # Replace std tools
+            bat            # cat
+            bottom         # top/htop
+            delta          # diff
+            duf            # df
+            dust           # du
+            fd             # find
+            lsd            # ls
+            ripgrep-all    # grep
+            sd             # sed
+            xcp            # cp
+            xh             # curl/wget
           ];
         };
       }
