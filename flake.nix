@@ -26,7 +26,7 @@
             lychee
             rumdl
             starship
-            yq
+            yq-go
             zoxide
 
             # AI
