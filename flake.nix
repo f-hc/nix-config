@@ -27,6 +27,7 @@
             rumdl
             starship
             yq
+            zoxide
 
             # AI
             codex
@@ -58,17 +59,17 @@
             nixfmt
 
             # Replace std tools
-            bat            # cat
-            bottom         # top/htop
-            delta          # diff
-            duf            # df
-            dust           # du
-            fd             # find
-            lsd            # ls
-            ripgrep-all    # grep
-            sd             # sed
-            xcp            # cp
-            xh             # curl/wget
+            bat # cat
+            bottom # top/htop
+            delta # diff
+            duf # df
+            dust # du
+            fd # find
+            lsd # ls
+            ripgrep-all # grep
+            sd # sed
+            xcp # cp
+            xh # curl/wget
           ];
         };
       }

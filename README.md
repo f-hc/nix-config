@@ -68,3 +68,4 @@ nix profile upgrade nix-config
 - [xcp](https://github.com/tarka/xcp)
 - [xh](https://github.com/ducaale/xh)
 - [yq](https://github.com/mikefarah/yq)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
