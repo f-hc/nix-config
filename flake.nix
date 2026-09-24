@@ -42,6 +42,7 @@
             sops
 
             # Jujutsu VCS + other VCS tools
+            git
             hanko
             jujutsu
             lazyjj
