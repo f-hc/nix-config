@@ -2,15 +2,33 @@
   description = "Global system tools";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs =
-    { nixpkgs, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (
+    {
+      self,
+      nixpkgs,
+      ...
+    }:
+    let
+      systems = [
+        "x86_64-linux"
+        "aarch64-linux"
+        "aarch64-darwin"
+      ];
+      eachSystem =
+        systems: f:
+        builtins.foldl' (
+          a: s: a // builtins.mapAttrs (k: v: (a.${k} or { }) // { ${s} = v; }) (f s)
+        ) { } systems;
+    in
+    eachSystem systems (
       system:
       let
-        pkgs = nixpkgs.legacyPackages.${system};
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
       in
       {
         packages.default = pkgs.buildEnv {
@@ -52,6 +70,7 @@
             just-lsp
 
             # Nix
+            attic-client
             nix-direnv
             nix-output-monitor
             nix-tree
