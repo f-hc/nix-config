@@ -29,6 +29,7 @@ nix profile upgrade nix-config
 ## Packages
 
 - [aria2](https://github.com/aria2/aria2)
+- [attic-client](https://github.com/zhaofengli/attic)
 - [b3sum](https://github.com/BLAKE3-team/BLAKE3)
 - [bat](https://github.com/sharkdp/bat)
 - [bottom](https://github.com/ClementTsang/bottom)
@@ -38,6 +39,7 @@ nix profile upgrade nix-config
 - [duf](https://github.com/muesli/duf)
 - [dust](https://github.com/bootandy/dust)
 - [fd](https://github.com/sharkdp/fd)
+- [git](https://github.com/git/git)
 - [grex](https://github.com/pemistahl/grex)
 - [hanko](https://github.com/SRv6d/hanko)
 - [harper](https://github.com/Automattic/harper)
