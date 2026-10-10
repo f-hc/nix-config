@@ -60,6 +60,7 @@
             sops
 
             # Jujutsu VCS + other VCS tools
+            gg-jj
             git
             hanko
             jujutsu

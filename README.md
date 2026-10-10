@@ -39,6 +39,7 @@ nix profile upgrade nix-config
 - [duf](https://github.com/muesli/duf)
 - [dust](https://github.com/bootandy/dust)
 - [fd](https://github.com/sharkdp/fd)
+- [gg-jj](https://github.com/gulbanana/gg)
 - [git](https://github.com/git/git)
 - [grex](https://github.com/pemistahl/grex)
 - [hanko](https://github.com/SRv6d/hanko)
