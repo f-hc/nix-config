@@ -68,6 +68,7 @@ nix profile upgrade nix-config
 - [skills](https://github.com/vercel-labs/skills)
 - [sops](https://github.com/getsops/sops)
 - [starship](https://github.com/starship/starship)
+- [tokei](https://github.com/XAMPPRocky/tokei)
 - [xcp](https://github.com/tarka/xcp)
 - [xh](https://github.com/ducaale/xh)
 - [yq](https://github.com/mikefarah/yq)

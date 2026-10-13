@@ -44,6 +44,7 @@
             lychee
             rumdl
             starship
+            tokei
             yq-go
             zoxide
 
