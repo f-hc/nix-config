@@ -64,6 +64,7 @@
             gg-jj
             git
             hanko
+            jjui
             jujutsu
             lazyjj
 

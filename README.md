@@ -45,6 +45,7 @@ nix profile upgrade nix-config
 - [hanko](https://github.com/SRv6d/hanko)
 - [harper](https://github.com/Automattic/harper)
 - [hyperfine](https://github.com/sharkdp/hyperfine)
+- [jjui](https://github.com/idursun/jjui)
 - [jujutsu](https://github.com/jj-vcs/jj)
 - [just](https://github.com/casey/just)
 - [just-lsp](https://github.com/terror/just-lsp)
